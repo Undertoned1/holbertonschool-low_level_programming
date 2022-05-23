@@ -3,7 +3,7 @@
 #include <time.h>
 /* more headers goes there */
 
-/*adding items to a precreated scropt*/
+/* main - adding items to a precreated scropt*/
 
 /* betty style doc for function main goes there */
 int main(void)
@@ -14,7 +14,7 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n == 0)
 {
-printf("%dis zero\n", n);
+printf("%d is zero\n", n);
 }
 else if (n > 0)
 {
