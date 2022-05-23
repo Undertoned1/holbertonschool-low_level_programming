@@ -3,10 +3,10 @@
 #include <time.h>
 
 /**
-* main: prints a random number and gives zero, positive, or negative
-*
-* return - always 0
-*/
+ * main: prints a random number and gives zero, positive, or negative
+ *
+ * return - always 0
+ */
 int main(void)
 {
 int n;
