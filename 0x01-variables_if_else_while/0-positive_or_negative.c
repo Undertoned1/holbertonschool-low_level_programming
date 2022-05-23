@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /** 
- * main - adding items to a precreated script
+ * main - prints a random number and gives zero, positive, or negative
  *
- * betty style doc for function main goes there
+ * return - always 0
 */
 int main(void)
 {
