@@ -2,9 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-* main - prints the last digit of a random number
-* Returns: Always 0
-*/
+ * main - Prints a random number and gives zero, positive, or negative
+ *
+ * Return: Always 0
+ */
 int main(void)
 {
 int n;
@@ -13,7 +14,7 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 if ((n % 10) > 5)
 {
-printf("Last digit of %d is %d and is greather than 5\n", n, n % 10);
+printf("Last digit of %d is %d and is greater than 5\n", n, n % 10);
 }
 else if ((n % 10) < 6 && (n % 10) != 0)
 {
