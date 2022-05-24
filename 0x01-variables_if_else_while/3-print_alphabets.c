@@ -10,13 +10,13 @@ int main(void)
 {
 char x = 'a';
 char xx = 'A';
-while (x < = 'z')
+while (x <= 'z')
 {
 printf("%c\n", x);
 x++;
 }
 
-while (xx < = 'Z')
+while (xx <= 'Z')
 {
 printf("%c\n", xx);
 xx++;
