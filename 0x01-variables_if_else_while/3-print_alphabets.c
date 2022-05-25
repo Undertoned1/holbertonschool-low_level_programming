@@ -21,7 +21,7 @@ while (xx <= 'Z')
 putchar(xx);
 xx++;
 }
-if (xx = 'Z')
+if (xx == 'Z')
 putchar('\n');
 
 return (0);
