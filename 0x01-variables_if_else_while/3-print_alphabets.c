@@ -12,19 +12,14 @@ char x = 'a';
 char xx = 'A';
 while (x <= 'z')
 {
-printf("%c", x);
+putchar(x);
 x++;
 }
 
 while (xx <= 'Z')
 {
-printf("%c", xx);
+putchar(xx);
 xx++;
-}
-
-if (xx == 'Z')
-{
-putchar('\n');
 }
 
 return (0);
